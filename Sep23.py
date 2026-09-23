@@ -6,10 +6,12 @@ for i in range(0, len(numbers)):
 for i in numbers:
     print(i)
 
-Fam = [
-    {"Name" : "Seth", "Gender" : 22, "Gender" : True};
-    {"Name" : "Jess", "Gender" : 24, "Gender" : False};
-]
+fam = [
+    {"Name" : "Seth", "Age" : 22, "Gender" : True},
+    {"Name" : "Jess", "Age" : 24, "Gender" : False}]
+
+for person in fam:
+    print(person["Name"] + " " + str(person["Age"]))
 
 #Notes on class
 #I can create a portfolio on GitHub
