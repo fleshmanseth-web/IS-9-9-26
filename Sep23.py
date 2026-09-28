@@ -13,6 +13,18 @@ fam = [
 for person in fam:
     print(person["Name"] + " " + str(person["Age"]))
 
-#Notes on class
-#I can create a portfolio on GitHub
-#Git is local, Github is distributed
+amount = 1000000
+
+#Comma tells it to add commas like a number, the .2f says to two places
+print("I don't need " + "${:,.2f}".format(amount))
+print(f"I don't need ${amount:,.2f}")
+
+from datetime import datetime
+print(datetime.now())
+
+# Notes on class
+# I can create a portfolio on GitHub
+# Git is local, Github is distributed
+# Function(Arguement)
+
+#Coding Challenge
