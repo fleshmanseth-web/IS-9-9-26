@@ -1,3 +1,5 @@
+# Program by Seth Fleshman
+# This program contains all the custom functions for the Wordle game in main.py
 import random
 
 possible_words = [

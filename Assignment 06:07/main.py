@@ -1,3 +1,5 @@
+# Program by Seth Fleshman
+# This is the main program for a Wordle, guess the word type game
 import wordle_functions
 
 #Welcome the player and provide instructions
